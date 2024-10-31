@@ -1,0 +1,4 @@
+// The description of the take-home said "Assume that this application will be deployed to production. Build it accordingly."
+// I opted for a constant instead of an environment variable because I thought it was easier for the reviewer to test the application without having to set up an environment variable.
+// If this was a real-world application, it could make sense to use an environment variable for the API URL, if we have different URLs for different environments (e.g. development, staging, production).
+export const TAKE_HOME_API_URL = "https://take-home-assignment-otlp-logs-api.vercel.app/api/logs";
